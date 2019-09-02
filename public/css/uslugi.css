@@ -1,0 +1,31 @@
+
+
+
+.uslug-cennik-kontener {
+    display: flex;
+    height: 80px;
+    flex-flow: column;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url('../img/kontener-art-100.png');
+    background-position: center;
+    background-repeat: no-repeat no-repeat;
+    font-size: 35px;
+  }
+   
+  .middle {
+    flex: 1 1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+  }
+
+  .uslug-cennik-wielkosc {
+    /* height: 50px; */
+    /* background-color: red; */
+    color: white;
+   
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+  }

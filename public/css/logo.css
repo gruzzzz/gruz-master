@@ -1,8 +1,9 @@
 .logo {
-    background-image: url('../img/3-kontenery.png');
-    background: no-repeat center center;
+    background-image: url('../img/logo-main.png');
+    background-repeat: no-repeat center center;
+    background-size: 100% 100%;
     background-color: #868e96;
-    background-attachment: scroll;
-    position: relative;
-    background-size: cover;
+    height: 400px;
+    /* position: relative; */
+    /* background-size: cover; */
 }

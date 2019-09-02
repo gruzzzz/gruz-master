@@ -43,7 +43,10 @@ function buildHTML() {
     }))
     .pipe(gulp.dest('./dist/'));
 
-  return html;
+  var img = gulp.src('./public/img/**/*')
+  .pipe(gulp.dest('./dist/img/'));
+
+  return merge(html, img);
 }
 
 function buildCSSVendor() {
